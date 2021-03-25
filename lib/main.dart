@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:netflix_clonecoding/screen/home_screen.dart';
 import 'package:netflix_clonecoding/widget/bottom_bar.dart';
 
 void main() {
@@ -26,11 +27,7 @@ class _MyAppState extends State<MyApp> {
           body: TabBarView(
             physics: NeverScrollableScrollPhysics(), // 손가락으로 탭 전환 막기
             children: <Widget>[
-              Container(
-                child: Center(
-                  child: Text('home'),
-                ),
-              ),
+              HomeScreen(),
               Container(
                 child: Center(
                   child: Text('search'),

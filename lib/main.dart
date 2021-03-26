@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:netflix_clonecoding/screen/home_screen.dart';
+import 'package:netflix_clonecoding/screen/more_screen.dart';
 import 'package:netflix_clonecoding/widget/bottom_bar.dart';
 
 void main() {
@@ -38,11 +39,7 @@ class _MyAppState extends State<MyApp> {
                   child: Text('save'),
                 ),
               ),
-              Container(
-                child: Center(
-                  child: Text('more'),
-                ),
-              ),
+              MoreScreen(),
             ],
           ),
           bottomNavigationBar: Bottom(),

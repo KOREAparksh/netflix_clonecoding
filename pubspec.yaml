@@ -26,8 +26,8 @@ dependencies:
   carousel_slider: ^3.0.0
   flutter_linkify:
   url_launcher:
-  firebase_core:
-  cloud_firestore:
+  firebase_core: ^0.4.0+9
+  cloud_firestore: ^0.12.9+5
 
 
 

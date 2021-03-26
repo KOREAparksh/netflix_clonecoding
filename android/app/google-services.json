@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1013568220215",
+    "project_id": "netflix-clonecoding-379ff",
+    "storage_bucket": "netflix-clonecoding-379ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013568220215:android:ee740010ab9f7da4d663b2",
+        "android_client_info": {
+          "package_name": "com.clonecoding.netflix_clonecoding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013568220215-2ihll5ip1u31bv2pkklvprnsdj0d1hmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9RmMsGj1JrUAwmSq6xZyVjQ-mL9HAUcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013568220215-2ihll5ip1u31bv2pkklvprnsdj0d1hmp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1013568220215-u2shng2adjhm76ah13a90iejrdsqdr0i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.clonecoding.netflixClonecoding"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

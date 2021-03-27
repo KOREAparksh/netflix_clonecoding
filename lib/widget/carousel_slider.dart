@@ -31,6 +31,11 @@ class _CarouselImageState extends State<CarouselImage> {
 
   @override
   Widget build(BuildContext context) {
+    movies = widget.movies;
+    images = movies.map((m) => Image.network(m.poster)).toList();
+    keywords = movies.map((m) => m.keyword).toList();
+    likes = movies.map((m) => m.like).toList();
+    _currentKeyword = keywords[0];
     return Container(
       child: Column(
         children: <Widget>[

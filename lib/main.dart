@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:netflix_clonecoding/screen/home_screen.dart';
 import 'package:netflix_clonecoding/screen/more_screen.dart';
+import 'package:netflix_clonecoding/screen/search_screen.dart';
 import 'package:netflix_clonecoding/widget/bottom_bar.dart';
 
 void main() {
@@ -29,11 +30,7 @@ class _MyAppState extends State<MyApp> {
             physics: NeverScrollableScrollPhysics(), // 손가락으로 탭 전환 막기
             children: <Widget>[
               HomeScreen(),
-              Container(
-                child: Center(
-                  child: Text('search'),
-                ),
-              ),
+              SearchScreen(),
               Container(
                 child: Center(
                   child: Text('save'),
